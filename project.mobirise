@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "page1.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -35,7 +35,8 @@
         "#030303",
         "#332626",
         "#379683",
-        "#c37a7a"
+        "#c37a7a",
+        "#424a4d"
       ]
     },
     "path": "@PROJECT_PATH@",
@@ -48,19 +49,32 @@
         "url": "https://fonts.googleapis.com/css?family=Epilogue:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i"
       }
     ],
-    "favicon": "@PROJECT_PATH@/assets/images/b7fd90afc5d08b39eb9de20df91a004f_1.ico",
+    "favicon": "@PROJECT_PATH@/assets/images/kisspng-playstation-4-logo-playstation-3-playstation-png-clipart-5a7562797f2905.2461008415176423615209.png",
     "mbrsiteDomain": "ps4host",
-    "imageResize": true,
+    "imageResize": false,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
     "siteUrl": false,
-    "cookiesAlert": false,
+    "cookiesAlert": {
+      "customDialogSelector": false,
+      "colorText": "#030303",
+      "colorBg": "#fafafa",
+      "colorButton": "#e43f3f",
+      "rejectColor": "#ffffff",
+      "colorLink": "#4479d9",
+      "underlineLink": true,
+      "opacityOverlay": "1",
+      "text": "We use cookies to give you the best experience as specified in the <a href='privacy.html'>cookie policy</a>.",
+      "textButton": "Aceptar ",
+      "rejectText": "REJECT"
+    },
     "gdpr": false,
     "uniqCompNum": 21,
     "versionPublish": "5.7.4",
     "screenshot": "screenshot.png",
-    "publishChangesOnly": false
+    "publishChangesOnly": false,
+    "cookiesAlertType": "1"
   },
   "pages": {
     "index.html": {
