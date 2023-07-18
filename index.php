@@ -7,6 +7,7 @@ $consulta = "SELECT id, nombre, usuario, email, password FROM usuarios";
 $resultado = $conexion->prepare($consulta);
 $resultado->execute();
 $data=$resultado->fetchAll(PDO::FETCH_ASSOC);
+
 ?>
 
 <!doctype html>
